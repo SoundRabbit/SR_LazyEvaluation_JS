@@ -1,6 +1,6 @@
 {
   "name": "sr-lazy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generator for a lazy-evaluated function",
   "main": "src/lazy.js",
   "scripts": {
