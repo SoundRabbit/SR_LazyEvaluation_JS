@@ -75,7 +75,7 @@ lazy(
 `$lazy(func)` needs **pure** function, and returns lazy-evaluated function. The function is evaluated when final argment is given, and supoorts partial application and chacheing. This is an example:
 
 ```js
-const add = lazy((x, y) => x + y);
+const add = $lazy((x, y) => x + y);
 const add10 = add(10);  // not evaluated
 const res = add10(20);  // evaluated
 console.log(res);
@@ -86,7 +86,7 @@ This has possibility to be useful when you give the lazy-evaluated function as c
 #### syntax
 
 ```js
-lazy(
+$lazy(
     func    //pure function
 );
 ```
