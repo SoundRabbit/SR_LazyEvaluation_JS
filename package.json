@@ -1,0 +1,27 @@
+{
+  "name": "sr-lazy",
+  "version": "0.1.0",
+  "description": "Generator for a lazy-evaluated function",
+  "main": "src/lazy.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/neunyan/SR_LazyEvaluation_JS.git"
+  },
+  "keywords": [
+    "lazy",
+    "lazy-evaluation",
+    "generator"
+  ],
+  "author": "neunyan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/neunyan/SR_LazyEvaluation_JS/issues"
+  },
+  "homepage": "https://github.com/neunyan/SR_LazyEvaluation_JS#readme",
+  "dependencies": {
+    "sr-data-manipulator": "^0.2.2"
+  }
+}
