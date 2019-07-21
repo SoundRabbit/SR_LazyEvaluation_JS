@@ -28,6 +28,12 @@ console.log(sumOf_2(10, 11));       //24
 console.log(sumof_3(10));           //16
 ```
 
+## How to instal
+
+```
+npm install sr-lazy
+```
+
 ## What's this
 
 this package give you lazy function and binding function.
