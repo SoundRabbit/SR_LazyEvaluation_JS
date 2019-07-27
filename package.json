@@ -4,7 +4,8 @@
   "description": "Generator for a lazy-evaluated function",
   "main": "src/lazy.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "fmt": "prettier --tab-width 4 --write . /**/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/neunyan/SR_LazyEvaluation_JS#readme",
   "dependencies": {
     "sr-data-manipulator": "^0.2.2"
+  },
+  "devDependencies": {
+    "performance-now": "^2.1.0"
   }
 }
